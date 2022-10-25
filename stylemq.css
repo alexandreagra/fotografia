@@ -21,6 +21,10 @@ p.parag{
     margin-right: 0px!important;
 }
 
+h1, h2, h3 {
+    text-align: center !important;
+}
+
 #pintinhas{
     display: none;
 }
