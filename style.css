@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +41,10 @@ main {
 header {
     text-align: center;
     background-image: linear-gradient(#F2C3FA, #DEADD3,#F783A3);
+    -webkit-animation: fadeIn 2s ease-in-out;
+    -moz-animation: fadeIn 2s ease-in-out;
+    -o-animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
 }
 
 header > h1 {
