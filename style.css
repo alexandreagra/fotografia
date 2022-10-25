@@ -6,11 +6,18 @@
 }
 
 body {
-    font-family: 'Montserrat';
+    font-family: 'Fuzzy bubbles';
+}
+
+p{
+    font-family: Dawning of a New Day;
+    font-size: 44px;
+    color: rgb(124, 48, 122);
 }
 
 main {
-    background-color: #f5cdff;
+    display: block;
+    background-color: #f4d4fc;
     
 }
 
@@ -20,12 +27,12 @@ header {
 }
 
 header > h1 {
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 200;
-    padding: 20px;
-    color: rgb(0, 0, 0);
-    background-image: linear-gradient(to right, #fabfbf, #cdf0f7, #a2cfba, #eba6dc);
-    border: 1px solid rgba(0, 0, 0, 0.527);
+    padding: 10px;
+    color: rgb(116, 79, 114);
+    background-image: linear-gradient(to right, #fabde8, #eb9fabc2, #fce1c4, #eba6dc);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 header > div {
@@ -36,66 +43,104 @@ header > div {
 }
 
 header > div > img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+}
+
+.fofura {
+    height: 260px;
 }
 
 section {
-    background-color: white;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 30px 0px 30px;
 }
 
 main {
     padding: 0px 200px 0px 200px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.459);
+    border: none;
 }
 
-#primeira > h1 {
-    padding: 40px 0px 0px 0px;
-    font-size: 32px;
-    font-weight: 600;
+h2{
+    color: #e384f7;
     text-align: center;
 }
 
-#primeira > p {
-    text-align: justify;
-    font-size: 18px;
-    padding: 20px 0px 20px 0px;
-}
-
-#exposicao{
-    padding: 0px 20px 0px 20px;
-    background-color: white;
-}
-
-#exposicao > h2 {
-    padding: 20px 0px 20px 0px;
+h3 {
+    color: #e384f7;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    padding-top: 10px;
     font-size: 24px;
-    font-weight: normal;
-    text-decoration: underline;
+
 }
 
-#exposicao > p {
-    font-size: 18px;
+#primeirop {
+    margin-right: 300px;
+    text-align: justify;
+}
+
+.primeira {
+    display: block;
+    background-color:rgb(252, 237, 255);
+    box-shadow: 1px 10px 8px;
+    background-image: url(img/noiva.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+.primeira > h2 {
+    padding: 60px 0px 20px 0px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.primeira > p {
+    text-align: justify;
     padding: 20px 0px 20px 0px;
 }
 
-#exposicao > h3 {
-    font-size: 22px;
-    font-weight: bold;
-    padding: 20px 0px 10px 0px;
+.segunda {
+    display: block;
+    background-color:rgb(252, 237, 255);
+    box-shadow: 1px 10px 8px;
+}
+
+.segunda > h2 {
+    padding: 60px 0px 0px 0px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.segunda > p {
+    text-align: justify;
+    padding: 20px 0px 20px 0px;
+}
+
+#pintinhas {
+    width: 1050px;
+    background-size: cover;
+    background-position: center;
+}
+
+p.parag {
+    text-align: center !important;
+    font-size: 36px;
+    font-weight: normal;
+    margin-left: 220px!important;
+    margin-right: 220px!important;
+}
+
+p.parag2 {
     text-align: center;
 }
 
-#exposicao > img {
+.imgexemp {
     display: block;
     margin: auto;
-}
-
-.parag {
-    text-align: center;
-    font-weight: normal;
-    margin: 0px 340px 0px 340px;
-    padding: 0px;
 }
 
 footer {
@@ -107,9 +152,13 @@ footer {
     font-weight: 600;
 }
 
-@media (max-width: 380px)
+footer > p { 
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-
-
-
-
+@media (max-width: 380px) {
+    p {
+        font-size: 14px;
+    }
+}
