@@ -1,0 +1,50 @@
+@media screen and (min-width: 380px) and (max-width:600px){
+
+    p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+#primeirop {
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.primeira {
+    background-position: left center;
+}
+
+p.parag{
+    font-size: 14px;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+#pintinhas{
+    display: none;
+}
+
+header {
+    display: block;
+}
+
+header > h1 {
+    font-size: 22px;
+    font-weight: 200;
+    padding: 10px;
+    color: rgb(116, 79, 114);
+    background-image: linear-gradient(to right, #fabde8, #eb9fabc2, #fce1c4, #eba6dc);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+header > div > picture {
+    display: none;
+}
+
+footer > p {
+    font-size: 14px;
+    text-align: center;
+}
+
+}

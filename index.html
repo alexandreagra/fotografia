@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemq.css">
     <!--fonte1-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +21,14 @@
 <body>
     <header>
         <div>
-            <img src="Icone-camera-Png-1.png" alt="">
-            <img class="fofura" src="img/a-fofura.png" alt="">
-            <img src="Icone-camera-Png-1.png" alt="">
-            <img class="fofura" src="img/a-fofura.png" alt="">
-            <img src="Icone-camera-Png-1.png" alt="">
+            <picture>
+                <source media="(max-width: 1500px)" srcset="img/a-fofura.png" type="image/png">
+                <img src="Icone-camera-Png-1.png" alt="">
+                <img class="fofura" src="img/a-fofura.png" alt="">
+                <img src="Icone-camera-Png-1.png" alt="">
+                <img class="fofura" src="img/a-fofura.png" alt="">
+                <img src="Icone-camera-Png-1.png" alt="">
+            </picture>
         </div>
             <h1>APRENDENDO FOTOGRAFIA - A TRÍADE DA ILUMINAÇÃO E MOVIMENTO</h1>
     </header>
@@ -48,7 +52,6 @@
                 </h2>
                 <p>
                     Exposição se refere a quantia de luz que entra no sensor de sua câmera. Basicamente é o quanto sua fotos ficarão escura ou clara, ou seja, ela que define o quão claro ou escuro as fotos ficarão. </p>
-                <img id="pintinhas" src="img/bg-pintinhas.png" alt=""> 
                     <p class="exemplo">Exemplo: se o resultado da imagem estiver muito claro é porque a imagem foi superexposta, ou seja, "muita luz".
                 </p>       
                 <h2>
@@ -60,7 +63,10 @@
                 <h3>
                     SUBEXPOSIÇÃO:
                 </h3>
-                <img class="imgexemp" src="sub.png" alt="">
+                <picture>
+                    <source media="(max-width: 1500px)" srcset="sub2.png" type="image/png">
+                    <img class="imgexemp" src="sub.png" alt="">
+                </picture>
                 <p class="parag">
                     Perceba que na imagem acima, a fotografia sai escurecida, porque a exposição utilizada foi muito baixa.
                 </p>
@@ -68,17 +74,26 @@
                 <h3>
                     SUPEREXPOSIÇÃO:
                 </h3>
-                <img class="imgexemp"src="sup.png" alt="">
+                <picture>
+                    <source media="(max-width: 1500px)" srcset="sup2.png" type="image/png">
+                    <img class="imgexemp"src="sup.png" alt="">
+                </picture>
                 <p class="parag">
                     Já nessa fotografia, a imagem sai "estourada". Isso acontece porque a exposição utilizada foi muito alta.
                 </p>
                 <h3>
                     EXPOSIÇÃO CORRETA:
                 </h3>
-                <img class="imgexemp" src="exc.png" alt="">
+                <picture>
+                    <source media="(max-width: 1500px)" srcset="exc2.png" type="image/png">
+                    <img class="imgexemp" src="exc.png" alt="">
+                </picture>
                 <p class="parag">
                     Em tese, a foto acima estaria com a exposição correta, onde você pode ver com clareza todos os detalhes da imagem. 
                 </p>
+        </section>
+        <section class="terceira">
+
         </section>
     </main>
 
