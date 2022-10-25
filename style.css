@@ -30,6 +30,7 @@ p{
     font-family: Montsserat;
     font-size: 28px;
     color: rgb(124, 48, 122);
+    text-align: justify;
 }
 
 main {
@@ -99,11 +100,6 @@ h3 {
 
 }
 
-#primeirop {
-    margin-right: 300px;
-    text-align: justify;
-}
-
 .primeira {
     display: block;
     background-color:rgb(252, 237, 255);
@@ -119,7 +115,6 @@ h3 {
 
 .primeira > p {
     text-align: justify;
-    padding: 20px 0px 20px 0px;
 }
 
 .segunda {
@@ -140,22 +135,12 @@ h3 {
     padding: 20px 0px 20px 0px;
 }
 
-#pintinhas {
-    width: 1050px;
-    background-size: cover;
-    background-position: center;
-}
-
 p.parag {
     text-align: center !important;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: normal;
-    margin-left: 220px!important;
-    margin-right: 220px!important;
-}
-
-p.parag2 {
-    text-align: center;
+    margin-left: 100px!important;
+    margin-right: 100px!important;
 }
 
 .imgexemp {

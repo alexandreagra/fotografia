@@ -25,10 +25,6 @@ h1, h2, h3 {
     text-align: center !important;
 }
 
-#pintinhas{
-    display: none;
-}
-
 header {
     display: block;
 }
@@ -49,6 +45,28 @@ header > div > picture {
 footer > p {
     font-size: 14px;
     text-align: center;
+}
+
+}
+
+@media screen and (min-width: 500px) and (max-width:1202px){
+
+    header > div > picture {
+        display: none;
+}
+
+p.parag{
+    font-size: 24px;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+p.parag2 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center !important;
 }
 
 }
