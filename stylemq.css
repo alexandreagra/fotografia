@@ -69,4 +69,9 @@ h1, h2, h3 {
     text-align: center !important;
 }
 
+footer > p {
+    font-size: 16px;
+    text-align: center;
+}
+
 }
